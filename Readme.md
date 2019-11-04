@@ -89,6 +89,8 @@ Packages installed:
    react-native link react-native-image-picker
 
 a. change in /ios/NameOfApp/plist
+
+<!-- comment para mabasa sa github page
 <dict>
 ...
 <key>NSAppTransportSecurity</key>
@@ -101,7 +103,11 @@ a. change in /ios/NameOfApp/plist
     <key>NSMicrophoneUsageDescription</key>
     <string>$(PRODUCT_NAME) would like to use your microphone (for videos)</string>
 </dict>
+-->
 
 b. change in /android/AndroidManifest.xml
+
+<!-- comment para mabasa sa github page
 <uses-permission android:name="android.permission.CAMERA" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+-->
